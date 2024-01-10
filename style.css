@@ -26,6 +26,7 @@ body{
     font-size: 3rem;
     font-family:'Montserrat';
     position: fixed;
+    z-index: 99;
 }
 
 section{

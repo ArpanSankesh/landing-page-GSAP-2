@@ -17,13 +17,13 @@ function time () {
 tl.to("#loader h1", {
     duration:1,
     delay:0.5,
-  scale: 1.5,
-//   onStart:time
+//   scale: 1.5,
+  onStart:time()
 });
 
 tl.to("#loader", {
-  duration: 2,
-  delay: 0.5,
+  duration: 1  ,
+//   delay: 0.5,
   top: "-100vh",
 });
 
